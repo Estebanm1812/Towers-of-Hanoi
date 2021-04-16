@@ -16,7 +16,7 @@ public class Main {
 	
 	public Main() throws IOException {
 		
-		br = new BufferedReader(new FileReader("data/input.txt"));
+		br = new BufferedReader(new FileReader("data/Hanoi_input.txt"));
 		bw = new BufferedWriter(new FileWriter("data/output.txt"));
 	}
 	
